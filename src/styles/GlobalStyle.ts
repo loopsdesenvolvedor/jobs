@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
@@ -12,6 +12,10 @@ const GlobalStyle = createGlobalStyle`
     body{
         margin: 0;
         padding: 0;
+    }
+
+    *,*::before,*::after{
+        box-sizing: inherit;
     }
 
 `;
