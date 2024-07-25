@@ -9,6 +9,8 @@ import logo from "../../public/jobs.svg";
 import { IoMdMenu, IoIosSearch } from "react-icons/io";
 import { FaBell, FaUserCircle } from "react-icons/fa";
 
+import Form from "./Form";
+
 const Root = styled.header`
   width: 100%;
   height: auto;
@@ -26,6 +28,11 @@ const Navbar = styled.nav`
 
   ${breakAt(BreakpointsSize.lg)} {
     padding: 0 5rem;
+
+    .logo {
+      width: 27rem;
+    }
+
     & img {
       width: 8.6rem;
       height: 2.8rem;
@@ -46,6 +53,10 @@ const ButtonsNavContent = styled.div`
     cursor: pointer;
   }
 
+  span {
+    display: none;
+  }
+
   .login {
     display: none;
   }
@@ -57,66 +68,86 @@ const ButtonsNavContent = styled.div`
       display: none;
     }
 
+    span {
+      display: inline-block;
+    }
+
     .menu-toggle,
     .notification {
       display: flex;
       align-items: center;
       gap: 0.6rem;
     }
-  }
 
-  .menu-toggle {
-    text-transform: uppercase;
-    font-weight: 500;
-  }
-
-  .notification {
-    border: 0.1rem solid rgba(51, 51, 51, 0.1);
-    padding: 0.5rem 0.9rem;
-    border-radius: 0.4rem;
-    font-size: 1.4rem;
-    transition: all 0.3s ease;
-
-    svg {
-      width: 1.2rem;
-    }
-
-    &:hover {
+    .login {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
       border: 0.1rem solid #264fbc;
       background-color: #264fbc;
+      padding: 0.5rem 0.9rem;
+      border-radius: 0.4rem;
+      font-size: 1.4rem;
       color: #fff;
+      text-decoration: none;
+      transition: all 0.3s ease;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+
+    .menu-toggle {
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+    .notification {
+      border: 0.1rem solid rgba(51, 51, 51, 0.1);
+      padding: 0.5rem 0.9rem;
+      border-radius: 0.4rem;
+      font-size: 1.4rem;
+      transition: all 0.3s ease;
+
       svg {
-        transition: all 0.3s ease;
-        fill: #fff;
+        width: 1.2rem;
+      }
+
+      &:hover {
+        border: 0.1rem solid #264fbc;
+        background-color: #264fbc;
+        color: #fff;
+        svg {
+          transition: all 0.3s ease;
+          fill: #fff;
+        }
       }
     }
   }
+`;
 
-  .login {
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    border: 0.1rem solid #264fbc;
-    background-color: #264fbc;
-    padding: 0.5rem 0.9rem;
+export const SearchContainer = styled.div`
+  display: none;
+  ${breakAt(BreakpointsSize.lg)} {
+    display: block;
+    width: 100%;
+    max-width: 45.4rem;
+    height: auto;
+    border: 0.1rem solid rgba(51, 51, 51, 0.3);
     border-radius: 0.4rem;
-    font-size: 1.4rem;
-    color: #fff;
-    text-decoration: none;
-    transition: all 0.3s ease;
-
-    &:hover {
-      opacity: 0.8;
-    }
   }
 `;
 
 const Header = () => (
   <Root>
     <Navbar>
-      <Link href="/">
+      <Link className="logo" href="/">
         <Image src={logo} alt="Logo Jobs" />
       </Link>
+
+      <SearchContainer>
+        <Form Icon={IoIosSearch} />
+      </SearchContainer>
 
       <ButtonsNavContent>
         <button className="search">
