@@ -12,15 +12,7 @@ O projeto está em desenvolvimento. Você pode conferir sua evolução através 
 - **Styled-Components**: Biblioteca para estilização com CSS-in-JS, oferecendo componentes estilizados de forma eficiente.
 - **MySQL**: Sistema de gerenciamento de banco de dados relacional utilizado para armazenar informações dos usuários e vagas de emprego.
 
-## Estrutura do Projeto
 
-O projeto está estruturado da seguinte forma:
-
-- `/pages`: Contém as páginas do Next.js, cada arquivo corresponde a uma rota da aplicação.
-- `/components`: Componentes React reutilizáveis.
-- `/styles`: Estilos globais e estilizações utilizando Styled-Components.
-- `/api`: Endpoints da API REST desenvolvida com Next.js API Routes para interação com o banco de dados.
-- `/utils`: Funções utilitárias diversas.
 
 ## Pré-requisitos
 
