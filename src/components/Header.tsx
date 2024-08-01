@@ -14,7 +14,7 @@ import Form from "./Form";
 const Root = styled.header`
   width: 100%;
   height: auto;
-  border-bottom: 0.1rem solid rgba(51, 51, 51, 0.1);
+  border-bottom: 0.1rem solid ${(props) => props.theme.colors.details.dark};
 `;
 const Navbar = styled.nav`
   width: 100%;
@@ -51,6 +51,10 @@ const ButtonsNavContent = styled.div`
     border: none;
     padding: 0;
     cursor: pointer;
+
+    svg {
+      fill: ${(props) => props.theme.colors.primary.main};
+    }
   }
 
   span {
@@ -83,14 +87,18 @@ const ButtonsNavContent = styled.div`
       display: flex;
       align-items: center;
       gap: 0.6rem;
-      border: 0.1rem solid #264fbc;
-      background-color: #264fbc;
+      border: 0.1rem solid ${(props) => props.theme.colors.primary.main};
+      background-color: ${(props) => props.theme.colors.primary.main};
       padding: 0.5rem 0.9rem;
       border-radius: 0.4rem;
       font-size: 1.4rem;
       color: #fff;
       text-decoration: none;
       transition: all 0.3s ease;
+
+      svg {
+        fill: ${(props) => props.theme.colors.primary.text};
+      }
 
       &:hover {
         opacity: 0.8;
@@ -103,7 +111,7 @@ const ButtonsNavContent = styled.div`
     }
 
     .notification {
-      border: 0.1rem solid rgba(51, 51, 51, 0.1);
+      border: 0.1rem solid ${(props) => props.theme.colors.details.dark};
       padding: 0.5rem 0.9rem;
       border-radius: 0.4rem;
       font-size: 1.4rem;
@@ -114,8 +122,8 @@ const ButtonsNavContent = styled.div`
       }
 
       &:hover {
-        border: 0.1rem solid #264fbc;
-        background-color: #264fbc;
+        border: 0.1rem solid ${(props) => props.theme.colors.primary.main};
+        background-color: ${(props) => props.theme.colors.primary.main};
         color: #fff;
         svg {
           transition: all 0.3s ease;
@@ -133,7 +141,7 @@ export const SearchContainer = styled.div`
     width: 100%;
     max-width: 45.4rem;
     height: auto;
-    border: 0.1rem solid rgba(51, 51, 51, 0.3);
+
     border-radius: 0.4rem;
   }
 `;
@@ -151,19 +159,19 @@ const Header = () => (
 
       <ButtonsNavContent>
         <button className="search">
-          <IoIosSearch size={22} color="#264FBC" />
+          <IoIosSearch size={22} />
         </button>
 
         <button className="notification">
-          <FaBell size={20} color="#264FBC" />
+          <FaBell size={20} />
           <span>Alertas</span>
         </button>
         <Link className="login" href="/">
-          <FaUserCircle size={12} color="#fff" />
+          <FaUserCircle size={12} />
           <span>Login</span>
         </Link>
         <button className="menu-toggle">
-          <IoMdMenu size={30} color="#264FBC" />
+          <IoMdMenu size={30} />
           <span>Menu</span>
         </button>
       </ButtonsNavContent>

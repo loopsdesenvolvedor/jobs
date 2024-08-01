@@ -10,6 +10,8 @@ const FormContainer = styled.form`
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 0.1rem solid ${(props) => props.theme.colors.details.dark};
+  border-radius: 0.4rem;
 
   .btn-icon {
     position: absolute;
@@ -19,19 +21,20 @@ const FormContainer = styled.form`
     right: 1rem;
     background-color: transparent;
     border: 0;
+    padding: 0;
 
     svg {
       height: 2rem;
-      fill: #264fbc;
+      fill: ${(props) => props.theme.colors.secondary.text};
     }
   }
 
   .btn-filter {
     width: 7.4rem;
     height: 3.6rem;
-    background-color: #264fbc;
-    border: 0.1rem solid #264fbc;
-    color: #fff;
+    background-color: ${(props) => props.theme.colors.primary.main};
+    border: 0.1rem solid ${(props) => props.theme.colors.primary.main};
+    color: ${(props) => props.theme.colors.primary.text};
     font-size: 1.4rem;
     font-weight: 400;
     margin-right: auto;
@@ -43,6 +46,10 @@ const FormContainer = styled.form`
     border-bottom-left-radius: 0.4rem;
     cursor: pointer;
     transition: all 0.3s ease;
+
+    svg {
+      fill: ${(props) => props.theme.colors.primary.text};
+    }
 
     &:hover {
       opacity: 0.8;
@@ -60,7 +67,7 @@ const Form = ({ Icon, btnText }: FormRequest) => {
     return (
       <FormContainer>
         <button className="btn-filter" type="button">
-          <IoMdArrowDropdown size={25} color="#fff" />
+          <IoMdArrowDropdown size={25} />
           <span>Filtros</span>
         </button>
         <Input
@@ -68,7 +75,7 @@ const Form = ({ Icon, btnText }: FormRequest) => {
           placeholder="Busque por uma vaga, empresa ou cidade"
         />
         <button className="btn-icon">
-          <Icon size={20} color="#333" />
+          <Icon size={20} />
         </button>
       </FormContainer>
     );
