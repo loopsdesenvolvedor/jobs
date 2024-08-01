@@ -4,7 +4,7 @@ import StyledComponentsRegistry from "@/lib/registry";
 import { AuthProvider } from "@/providers/auth";
 import GlobalStyle from "@/styles/GlobalStyle";
 import Header from "@/components/Header";
-import StyledProvider from "@/lib/ThemeProvider";
+import StyledProvider from "@/providers/ThemeProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,7 +26,7 @@ export default function RootLayout({
             <GlobalStyle />
             <StyledProvider>
               <Header />
-            {children}
+              {children}
             </StyledProvider>
           </AuthProvider>
         </body>
