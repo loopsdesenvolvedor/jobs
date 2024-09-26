@@ -62,6 +62,10 @@ Contributions are welcome! Please fork the repository and create a pull request 
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+
 ### Contact
 
-For any inquiries, feel free to reach out via [scarabellot.lopes@gmail.com] or create an issue in the GitHub repository.
+For any inquiries, feel free to reach out via scarabellot.lopes@gmail.com or create an issue in the GitHub repository.
+
+
+![JOBS _ MOBILE](https://github.com/user-attachments/assets/b6acfff5-b23b-4a58-b45b-cf1f79ad9b62)
