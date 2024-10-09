@@ -6,7 +6,7 @@ Welcome to the **Jobs** project, a full-stack application built with **Next.js**
 
 The design for the Jobs project can be found at the following link
 
-[Replace with your actual Figma link]('https://www.figma.com/design/o0NF1UaJRxLkJYn85h1ehR/jobs?node-id=0-1&node-type=canvas&t=I4gjpSRySNgr0OP5-0')
+[See on Figma]('https://www.figma.com/design/o0NF1UaJRxLkJYn85h1ehR/jobs?node-id=0-1&node-type=canvas&t=I4gjpSRySNgr0OP5-0')
 
 ## Technologies Used
 
