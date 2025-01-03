@@ -30,7 +30,8 @@ Confira o design da interface no **Figma**:
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/job-finder.git
+   git clone https://github.com/loopsdesenvolvedor/jobs.git
+   ```
 
 ## Print do Projeto   
 ![JOBS _ MOBILE](https://github.com/user-attachments/assets/5c6f9315-39b2-4f7f-ab6e-a71e6765e71d)
