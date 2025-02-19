@@ -6,8 +6,12 @@
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+<<<<<<< HEAD
     "build": "tsc",
     "start": "node dist/server.js"
+=======
+    "build": "tsc"
+>>>>>>> 414eccca831790309251941f11b6bb34601f2681
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
