@@ -42,7 +42,7 @@ Ensure you have the following installed before proceeding:
 ### Steps to Set Up Locally
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/jobs.git
+git clone https://github.com/loopsdesenvolvedor/jobs.git
 cd jobs
 
 # Install dependencies
