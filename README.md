@@ -1,6 +1,8 @@
+
 # Jobs - Job Search and Posting Platform
 
-![Jobs Logo](https://via.placeholder.com/600x200?text=Jobs+Platform)
+![jobs](https://github.com/user-attachments/assets/ecd38813-8ae6-45c8-907c-1147c13115f8)
+
 
 ## 📌 About the Project
 Jobs is a **full-stack job search and posting platform** designed to connect job seekers with potential employers. Built with modern web technologies, it ensures a smooth and efficient experience for both candidates and recruiters.
@@ -33,7 +35,7 @@ The project leverages a robust stack of technologies to ensure security, scalabi
 Ensure you have the following installed before proceeding:
 ```sh
 - Node.js (latest LTS version recommended)
-- PostgreSQL or another compatible database
+- MySQL or another compatible database
 - npm or yarn
 ```
 
