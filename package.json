@@ -5,7 +5,7 @@
   "author": "Elizeu Lopes <scarabellot.lopes@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
+    "dev": "ts-node-dev  src/server.ts",
     "start": "node dist/server.js",
     "build": "tsc"
  
