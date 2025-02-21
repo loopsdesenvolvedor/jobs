@@ -94,5 +94,40 @@ header {
         font-size: 1.4rem;
       }
     }
+
+    #header-navbar {
+      > nav {
+        .menu {
+          text-transform: uppercase;
+          font-size: 1.4rem;
+        }
+        > button {
+          width: 9.7rem;
+          height: 3.6rem;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          border: 1px solid var(--borderBlack);
+          border-radius: 4px;
+          transition: background-color 0.2s ease, border 0.2s ease;
+
+          &:hover {
+            background-color: var(--primary);
+            border-color: var(--primary);
+            color: white;
+
+            .icon-bell,
+            .icon-user,
+            .icon-menu {
+              color: white;
+            }
+          }
+
+          > span {
+            display: flex;
+          }
+        }
+      }
+    }
   }
 }
