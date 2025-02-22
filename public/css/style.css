@@ -12,6 +12,7 @@
   --text: #333333;
   --border: rgba(255, 255, 255, 0.1);
   --borderBlack: rgba(51, 51, 51, 0.1);
+  --borderBlack20: rgba(51, 51, 51, 0.2);
 }
 
 html {
