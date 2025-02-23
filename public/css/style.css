@@ -2,17 +2,18 @@
 
 @import url("./partials/navbar.css");
 @import url("./partials/search.css");
+@import url("./partials/hero.css");
+@import url("./partials/pagination.css");
 
 :root {
   --primary: #264fbc;
   --secondary: #5dd9c1;
-  --components-color: #f0f0f0;
+  --components-color: #ddd;
   --background: #ffffff;
   --text-link: #264fbc;
   --text: #333333;
   --border: rgba(255, 255, 255, 0.1);
   --borderBlack: rgba(51, 51, 51, 0.1);
-  --borderBlack20: rgba(51, 51, 51, 0.2);
 }
 
 html {
@@ -35,4 +36,8 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--background);
+}
+
+button {
+  cursor: pointer;
 }
