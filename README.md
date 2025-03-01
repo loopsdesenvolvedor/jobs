@@ -52,15 +52,9 @@ Ensure you have the following installed before proceeding:
 git clone https://github.com/loopsdesenvolvedor/jobs.git
 cd jobs
 
-# Install dependencies
+## Install dependencies
 
 npm install # or yarn install
-
-# Set up environment variables
-
-# Create a .env file in the root directory and configure the necessary database and authentication credentials.
-
-# Run database migrations
 
 npx prisma migrate dev
 
