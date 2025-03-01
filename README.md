@@ -47,7 +47,7 @@ Ensure you have the following installed before proceeding:
 - npm or yarn
 ```
 
-# Clone the repository
+## Clone the repository
 
 git clone https://github.com/loopsdesenvolvedor/jobs.git
 cd jobs
@@ -70,11 +70,11 @@ npm run dev # or yarn dev
 
 ## 📌 Features
 
-🏢 Employer Dashboard: Post job listings and manage applications
-👨‍💻 Job Seeker Dashboard: Search and apply for jobs
-🔐 Authentication & Authorization: Secure login system using NextAuth.js
-📂 File Upload: Employers can upload job-related files (via Multer)
-📊 Database ORM: Uses Prisma for efficient database management
+- 🏢 Employer Dashboard: Post job listings and manage applications
+- 👨‍💻 Job Seeker Dashboard: Search and apply for jobs
+- 🔐 Authentication & Authorization: Secure login system using NextAuth.js
+- 📂 File Upload: Employers can upload job-related files (via Multer)
+- 📊 Database ORM: Uses Prisma for efficient database management
 
 ## 📜 License
 
