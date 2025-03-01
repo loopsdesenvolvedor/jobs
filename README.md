@@ -68,7 +68,7 @@ npx prisma migrate dev
 
 npm run dev # or yarn dev
 
-📌 Features
+## 📌 Features
 
 🏢 Employer Dashboard: Post job listings and manage applications
 👨‍💻 Job Seeker Dashboard: Search and apply for jobs
@@ -76,5 +76,6 @@ npm run dev # or yarn dev
 📂 File Upload: Employers can upload job-related files (via Multer)
 📊 Database ORM: Uses Prisma for efficient database management
 
-📜 License
+## 📜 License
+
 This project is licensed under the MIT License.
