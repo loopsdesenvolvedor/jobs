@@ -1,6 +1,6 @@
 # Jobs - Job Search and Posting Platform
 
-![jobs](https://github.com/user-attachments/assets/a0e683e7-70e9-45cb-bf2e-0d9e9830cb66)
+![jobs](https://github.com/user-attachments/assets/1b92ce29-ad5a-447a-8ed5-289305b481d1)
 
 ## 📌 About the Project
 
