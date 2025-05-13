@@ -27,13 +27,10 @@ Um sistema de publicação e busca de vagas de emprego, com funcionalidades de a
    cd jobs
    npm i ou yarn
    yarn dev
-
-
-```markdown
+  ```
 ## Design
 veja o desenvolvimento do layout do app e desktop no Figma.
 [Clique aqui apara acessar o projeto!](https://www.figma.com/design/o0NF1UaJRxLkJYn85h1ehR/jobs?node-id=0-1&p=f&t=6PoTwxxa74eIGDs7-0)
-```
 
 ## Licença
 Você pode ajustar a seção de tecnologias ou estrutura conforme for evoluindo o projeto. Se quiser, posso também gerar esse arquivo e te ajudar a salvar como `README.md`. Deseja isso?
