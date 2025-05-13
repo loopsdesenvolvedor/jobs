@@ -27,6 +27,7 @@ Um sistema de publicação e busca de vagas de emprego, com funcionalidades de a
    cd jobs
    npm i ou yarn
    yarn dev
+```
 
 ## Design
 veja o desenvolvimento do layout do app e desktop no Figma.
