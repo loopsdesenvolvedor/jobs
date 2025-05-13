@@ -23,10 +23,10 @@ Um sistema de publicação e busca de vagas de emprego, com funcionalidades de a
 
 1. Clone o repositório:
    ```bash
-  - git clone https://github.com/seu-usuario/jobs.git
-  - cd jobs
-  - npm i ou yarn
-  - yarn dev
+   git clone https://github.com/seu-usuario/jobs.git
+   cd jobs
+   npm i ou yarn
+   yarn dev
   ```
 
 ## Design
