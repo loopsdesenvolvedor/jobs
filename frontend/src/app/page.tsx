@@ -1,9 +1,9 @@
-import Container from "./styles/Container";
+import Header from "@/components/header/Header";
 
 const Home = () => (
-  <Container>
-    <h1>Olá mundo</h1>
-  </Container>
+  <>
+    <Header />
+  </>
 );
 
 export default Home;
